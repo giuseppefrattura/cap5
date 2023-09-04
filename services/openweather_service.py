@@ -3,6 +3,7 @@ import requests
 import httpx
 
 from infrastucture import weather_cache
+from model.validation_error import ValidationError
 
 api_key: Optional[str] = None
 
